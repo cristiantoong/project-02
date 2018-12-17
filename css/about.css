@@ -1,0 +1,166 @@
+/* --------------------- About ------------------------ */
+
+#about {
+  width: 100%;
+  min-height: 100vh;
+  background: url('../img/prod/about-img.jpg') center/cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+
+#about .about-us {
+  background: #F23A2E;
+  padding: 50px;
+  width: 100%;
+  z-index: 2;
+  -webkit-box-shadow: -6px 18px 24px -20px rgba(0,0,0,0.7);
+-moz-box-shadow: -6px 18px 24px -20px rgba(0,0,0,0.7);
+box-shadow: -6px 18px 24px -20px rgba(0,0,0,0.7);
+}
+
+#about .about-us .about-para h1 {
+  padding-bottom: 20px;
+}
+
+#about .about-us .about-para {
+  width: 31%;
+  height: 308px;
+    color: #fff;
+    float: left;
+    line-height: 1.6;
+    margin-right: 20px;
+}
+#about .about-us .about-para p {
+  font-weight: 400;
+}
+
+
+.about-us:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#about .culture {
+  background: #1C1C1C;
+  padding: 50px;
+  width: 43%;
+  z-index: -1;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(19,19,19,0.88);
+background: -moz-linear-gradient(left, rgba(19,19,19,0.88) 0%, rgba(19,19,19,0.87) 0%, rgba(44,44,44,0.87) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(19,19,19,0.88)), color-stop(0%, rgba(19,19,19,0.87)), color-stop(100%, rgba(44,44,44,0.87)));
+background: -webkit-linear-gradient(left, rgba(19,19,19,0.88) 0%, rgba(19,19,19,0.87) 0%, rgba(44,44,44,0.87) 100%);
+background: -o-linear-gradient(left, rgba(19,19,19,0.88) 0%, rgba(19,19,19,0.87) 0%, rgba(44,44,44,0.87) 100%);
+background: -ms-linear-gradient(left, rgba(19,19,19,0.88) 0%, rgba(19,19,19,0.87) 0%, rgba(44,44,44,0.87) 100%);
+background: linear-gradient(to right, rgba(19,19,19,0.88) 0%, rgba(19,19,19,0.87) 0%, rgba(44,44,44,0.87) 100%);
+color: #fff;
+}
+
+#about .culture .main-culture {
+  position: absolute;
+  bottom: 171px;
+  width: 48%;
+  line-height: 1.6;
+}
+
+#about .culture .main-culture h1{
+  padding-bottom: 20px;
+  
+}
+
+#about .culture .main-culture p{
+  font-weight: 400;
+  
+}
+
+/*===================== MEDIA QUERIES ========================*/
+/*Tablets*/
+@media only screen and (max-width: 960px) {
+
+  #about .culture {
+    height: 500px;
+    width: 100%;
+    z-index: 0;
+    position: static;
+  }
+
+  #about .about-us .about-para {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  #about .culture {
+    min-height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: static;
+    overflow: hidden;
+  }
+
+  #about .culture .main-culture {
+    width: 100%;
+    position: static;
+    padding-top: 110px;
+  }
+
+}
+
+/*Phones*/
+@media only screen and (max-width: 750px) {
+  #about .about-us .container {
+    width: 670px;
+  }
+
+  .scrollToTop {
+    right: 10px;
+    bottom: 5px;
+  }
+
+  #about {
+    width: 100%;
+    z-index: 0;
+  }
+
+  .about-us {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .about-us .container {
+    display: block;
+    height: 100%;
+    position: static;
+    /* width: 100%; */
+  }
+
+  .about-us-wrap {
+    width: 100%;
+  }
+
+  #about .about-us .about-us-wrap .about-para {
+    width: 100%;
+  }
+
+  #about .about-us {
+    z-index: 0;
+  }
+
+  #about .culture {
+    min-height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: static;
+  }
+
+  #about .culture .main-culture {
+    width: 670px;
+  }
+
+ 
+
+}

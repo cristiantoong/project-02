@@ -1,0 +1,61 @@
+@import 'cssreset.css';
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import 'about.css';
+@import 'contact-us.css';
+@import 'header.css';
+@import 'news.css';
+@import 'product-services.css';
+@import 'recruitment.css';
+
+/* red/main color = #F23A2E
+black/title = #1C1C1C
+gray/titles, subtitles, paragraphs = #707070 
+light gray = #F8F9FA*/
+
+
+/*===================== MEDIA QUERIES ========================*/
+/*Tablets*/
+@media only screen and (max-width: 960px) {
+  
+
+}
+
+/*Phones*/
+@media only screen and (max-width: 750px) {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
