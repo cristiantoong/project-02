@@ -109,17 +109,8 @@ textarea {
 
 }
 
-::placeholder {
-  color: rgba(242, 59, 46, 0.486);
-}
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: rgba(242, 59, 46, 0.486);
- }
- 
- ::-ms-input-placeholder { /* Microsoft Edge */
-  color: rgba(242, 59, 46, 0.486);
- }
+
 
 .submit {
   background: #F23A2E;
@@ -140,25 +131,24 @@ textarea {
   position: fixed;
   bottom: 80px;
   right: 50px;
-  width: 40px;
+  width: 60px;
   line-height: 40px;
   text-align: center;
-  background: #F23A2E;
   color: #fff;
   z-index: 999;
   display: none;
-
 }
-
-.scrollToTop:hover {
-  background: rgba(0,0,0,0.5);
+.scrollToTop img {
+  width: 40px;
+  height: 40px;
 }
 
 /*===================== MEDIA QUERIES ========================*/
 /*Tablets*/
 @media only screen and (max-width: 960px) {
   #contact .container {
-    margin: 0 auto;
+    width: 89.33%;
+    padding: 90px 28px;
   }
 
   #contact .main-contact h1 {

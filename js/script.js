@@ -27,20 +27,13 @@ function showSlides() {
 
     setTimeout(showSlides, 8000);
 }
-// const showSlides = () => {
-    
-
-// };
-
-
-
 
 
 // ---Hamburger Menu---
   $(".hamburger").click(function(){
     $(this).toggleClass("is-active");
     // $(".mobile-menu").toggle();
-    $(".mobile-menu").slideToggle(1000);
+    $(".mobile-menu").slideToggle(500);
   });
 
  

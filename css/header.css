@@ -20,7 +20,8 @@
   margin: 0 auto;
 }
 .logo img {
-  width: 200px;
+  width: 250px;
+
 }
 .main-nav {
   background: #F23A2E;
@@ -40,6 +41,7 @@
 
 .main-nav .logo a{
   text-decoration: none;
+  
 }
 
 .nav {
@@ -130,7 +132,13 @@ span {
 
 
 
+
 /*===================== MEDIA QUERIES ========================*/
+@media only screen and (min-width: 960px) {
+  .main-nav1 .mobile-menu li{
+    display: none;
+  }
+}
 /*Tablets*/
 @media only screen and (max-width: 960px) {
   .container {
@@ -180,6 +188,7 @@ span {
     display: inline-block;
     margin-left: 533px;
     cursor: pointer;
+    /* margin-top: -24px; */
     overflow: visible;
   }
   .hamburger .line {
@@ -187,7 +196,7 @@ span {
     height: 3px;
     display: block;
     background: #fff;
-    margin: 6px auto;
+    margin: 7px auto;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -218,7 +227,7 @@ span {
   }
 
   .mobile-menu li {
-    padding: 10px 0;
+    padding: 15px 0;
     margin-bottom: 0 0 10 0px;
   }
 
@@ -236,7 +245,7 @@ span {
 /*Phones*/
 @media only screen and (max-width: 750px) {
   .container {
-    width: 670%;
+    width: 89.33%;
   }
   
   #header {
@@ -279,7 +288,7 @@ span {
     height: 3px;
     display: block;
     background: #fff;
-    margin: 6px auto;
+    margin: 7px auto;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -310,7 +319,7 @@ span {
   }
 
   .mobile-menu li {
-    padding: 10px 0;
+    padding: 15px 0;
     margin-bottom: 0 0 10 0px;
   }
 
@@ -360,60 +369,10 @@ span {
 }
 @media only screen and (max-width: 739px) {
   .hamburger {
-    margin-left: 357px!important;
+    margin-left: 136px!important;
   }
 }
 
 
-
-
-
-/* ------------- Animation Slide -------------- */
-
-
-@keyframes fade1 {
-  0%{
-    opacity: 1;
-  }
-  25%{
-    opacity: 0;
-  }
-  75%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-}
-
-@keyframes fade2 {
-  0%{
-    opacity: 0;
-  }
-  25%{
-    opacity: 1;
-  }
-  75%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 0;
-  }
-}
-
-@keyframes fade3 {
-  0%{
-    opacity: 0;
-  }
-  25%{
-    opacity: 0;
-  }
-  75%{
-    opacity: 1;
-  }
-  100%{
-    opacity: 0;
-  }
-}
 
 

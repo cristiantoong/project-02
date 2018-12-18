@@ -245,22 +245,29 @@
 
 /*Phones*/
 @media only screen and (max-width: 750px) {
-  #news {
-    width: 100%;
-  }
 
   #news #new-sliders #sliders .slider {
     width: 100%;
   }
 
+  #news #new-sliders #sliders {
+    padding: 0;
+  }
+
   #news .container {
-    width: 670px;
-    overflow: visible;
-    -ms-autohiding-scrollbar: auto;
+    width: 89.33%;
+    /* overflow: visible;
+    -ms-autohiding-scrollbar: auto; */
   }
 
   .dots-container {
     left: 18%;
+  }
+
+}
+@media only screen and (max-width: 676px) {
+  .dots-container {
+    left: 0;
   }
 
 }

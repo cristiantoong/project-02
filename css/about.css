@@ -113,7 +113,7 @@ color: #fff;
 /*Phones*/
 @media only screen and (max-width: 750px) {
   #about .about-us .container {
-    width: 670px;
+    width: 89.33%;
   }
 
   .scrollToTop {
@@ -135,7 +135,6 @@ color: #fff;
     display: block;
     height: 100%;
     position: static;
-    /* width: 100%; */
   }
 
   .about-us-wrap {
@@ -158,7 +157,7 @@ color: #fff;
   }
 
   #about .culture .main-culture {
-    width: 670px;
+    width: 89.33%;
   }
 
  
